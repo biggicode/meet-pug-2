@@ -1,0 +1,31 @@
+- 
+  var carList=[
+    {
+      carbrand:"mercedes",
+      model:"c class"
+    },
+    {
+      carbrand:"audi",
+      model:"a4"
+    },
+    {
+      carbrand:"bmw",
+      model:"seria 5"
+    },
+    {
+      carbrand:"lamborghini",
+      model:"urus"
+    },
+    {
+      carbrand:"fiat",
+      model:500
+    },
+
+  ]
+
+
+each car in carList
+  h1(style="color:blue;"
+  'title'="This heading have a big tooltip to demonstrate multiline attributes")=car.carbrand
+  |
+  p=car.model
