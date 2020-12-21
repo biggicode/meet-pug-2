@@ -1,0 +1,11 @@
+mixin fruits(fruitsList)
+  each fruit in fruitsList
+    li=fruit
+mixin apples
+  div I am eating
+  div a lot of apples
+
++apples
+hr
++apples
++fruits(["Apples","Oranges","Strawberry","Sweet Cherry"])
