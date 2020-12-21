@@ -6368,7 +6368,7 @@ jsprim@^1.2.2:
     json-schema "0.2.3"
     verror "1.10.0"
 
-jstransformer-markdown-it@2.1.0:
+jstransformer-markdown-it@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/jstransformer-markdown-it/-/jstransformer-markdown-it-2.1.0.tgz#69ec30ce4518bed5997b38f027648e8c285e92f7"
   integrity sha1-aewwzkUYvtWZezjwJ2SOjChekvc=
