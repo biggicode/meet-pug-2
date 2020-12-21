@@ -1,0 +1,11 @@
+-
+  var objectData = {
+    author:"Oncescu Laurentiu",
+    title:"How to pug",
+    description:"Pug is <b>awesome</b>"
+  }
+h1=objectData.title
+p.description Descripiton: #{objectData.description}
+p.description Descripiton: !{objectData.description}
+p.author Author: #{objectData.author}
+p.author Author: !{objectData.author.toLowerCase()}
